@@ -16,3 +16,5 @@ def clean_tshirt_categories(df, column_name="tshirt_category"):
         df[column_name] = df[column_name].replace(mapping)
     
     return df
+
+#test
